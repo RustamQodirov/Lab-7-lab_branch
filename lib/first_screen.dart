@@ -32,6 +32,7 @@ class _FirstScreenState extends State<FirstScreen> {
             ),
             title: Text('${user.firstName} ${user.lastName}'),
             subtitle: Text(user.email),
+            
           );
         },
       ),
